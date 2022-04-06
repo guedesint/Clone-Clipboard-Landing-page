@@ -1,6 +1,11 @@
 :root {
 /* Colors */
-    
+    --verde-agua: hsl(171, 66%, 44%);
+    --lilas: hsl(233, 100%, 69%);
+    --cinza-escuro: hsl(210, 10%, 33%);
+    --cinza-claro: hsl(201, 11%, 66%);
 
-
+/*Fontes*/
+    --peso-titulo:600;
+    --peso-paragrafo:400;
 }

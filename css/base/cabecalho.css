@@ -1,0 +1,20 @@
+.cabecalho {    
+    background-image: url(/images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.logo__cabecalho {
+    display: flex;
+    justify-content: center;
+    padding-top: 8rem;
+    padding-bottom: 4rem;
+}
+
+.paragrafro__cabecalho {
+    font-size: 1.01rem;
+    padding-bottom: 5.312rem;
+}
+

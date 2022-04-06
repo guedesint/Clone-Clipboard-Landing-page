@@ -1,2 +1,24 @@
 @import url(../base/_reset.css);
 @import url(../base/_variaveis.css);
+
+
+body {
+    font-size: 18px;
+    font-family: Bai Jamjuree, sans-serif;
+}
+
+.titulo__destaque {
+    font-weight: var(--peso-titulo);
+    color: var(--cinza-escuro);
+    text-align: center;
+    font-size: 2rem;
+    line-height: 40px;
+    margin-bottom: 1rem;
+}
+
+.texto {
+    color: var(--cinza-claro);
+    font-weight: var(--peso-paragrafo);
+    text-align: center;
+    line-height: 25px;
+}
