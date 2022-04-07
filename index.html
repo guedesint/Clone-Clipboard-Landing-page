@@ -8,15 +8,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/base/base.css">
-    <link rel="stylesheet" href="css/base/cabecalho.css">
+    <link rel="stylesheet" href="css/base/_base.css">
+    <link rel="stylesheet" href="css/base/_cabecalho.css">
+    <link rel="stylesheet" href="css/base/_main.css">
     <link rel="stylesheet" href="css/componentes/botao.css">
     <title>Frontend Mentor | Clipboard landing page</title>
 
 </head>
 
 <body>
-    <header class="cabecalho">
+    <header class="_cabecalho">
         <div class="logo__cabecalho" >
             <img src="images/logo.svg" alt="Logo do site" >
         </div>
@@ -27,8 +28,68 @@
         <div class="botao">
             <a href="#" class="botao botao__download">Download for iOS</a>
             <a href="#" class="botao botao__download botao__download-alternativo">Download for Mac</a>
-        </div>    
+        </div>
     </header>
+
+    <main class="_main">
+        <section class="chamada">
+            <h2 class="titulo__destaque ">Keep track of your snippets</h2>
+            <p class="paragrafo__chamada texto ">Clipboard instantly stores any item you copy in the cloud,
+                meaning you can access your snippets immediately on all your
+                devices. Our Mac and iOS apps will help you organize everything.</p>    
+        </section>
+        <section class="_central__imac-lista">
+            <img src="images/image-computer.png" alt="Tela iMac" class="tela__imac">
+            <ul class="lista__imac">
+                <li class="lista__imac-itens">
+                    <h3 class="titulo__destaque">Quick Search</h3>
+                    <p class="texto paragrafo__lista-imac">Easily search your snippets by content, category, web address, application, and more.</p>
+                </li>
+                <li class="lista__imac-itens">
+                    <h3 class="titulo__destaque">iCloud Sync</h3>
+                    <p class="texto paragrafo__lista-imac">Instantly saves and syncs snippets across all your devices.</p>
+                </li>
+                <li class="lista__imac-itens">
+                    <h3 class="titulo__destaque">Complete History</h3>
+                    <p class="texto paragrafo__lista-imac">Retrieve any snippets from the first moment you started using the app.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="_central__ipad">
+            <h3 class="titulo__destaque">Access Clipboard anywhere</h3>
+            <p class="texto paragrafo__ipad">Whether you’re on the go, or at your computer, you can access all your Clipboard
+                snippets in a few simple clicks.</p>
+            <img src="images/image-devices.png" alt="ipad e iphone" class="ipad">
+        </section>
+
+        <setion class="_empresas">
+            <h3 class="titulo__destaque">Supercharge your workflow</h3>
+            <p class="texto">We’ve got the tools to boost your productivity.</p>
+            <div class="chamada__empresas">
+                <ul class="empresas__lista">
+                    <li class="empresas__itens">
+                        <span class="empresas__icone"></span>
+                        <h3 class="titulo__destaque">Create blacklists</h3>
+                        <p class="texto paragrafo__empresas">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+                    </li>
+                    <li>
+                        <span></span>
+                        <h3 class="titulo__destaque">Plain text snippets</h3>
+                        <p class="texto paragrafo__empresas">Remove unwanted formatting from copied text for a consistent look.</p>
+                    </li>
+                    <li>
+                        <span></span>
+                        <h3 class="titulo__destaque">Sneak preview</h3>
+                        <p class="texto paragrafo__empresas">Quick preview of all snippets on your Clipboard for easy access.</p>
+                    </li>
+                </ul>
+            </div>
+        </setion>
+    </main>
 </body>
 
 </html>
+
+
+

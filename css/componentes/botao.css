@@ -7,7 +7,7 @@
 .botao__download {
     box-sizing: border-box;
     background-color: var(--verde-agua);
-    width: 100%;
+    width: 310px;
     min-height: 4rem;
     color: white;
     font-weight: 400;
@@ -16,6 +16,7 @@
     border-radius: 50px;
     text-align: center;
     justify-content: center;
+    align-items: center;
     box-shadow: 1px 2px 2px black;
 }
 
