@@ -11,20 +11,22 @@
     <link rel="stylesheet" href="css/base/_base.css">
     <link rel="stylesheet" href="css/base/_cabecalho.css">
     <link rel="stylesheet" href="css/base/_main.css">
+    <link rel="stylesheet" href="css/base/_footer.css">
     <link rel="stylesheet" href="css/componentes/botao.css">
     <title>Frontend Mentor | Clipboard landing page</title>
 
 </head>
 
 <body>
+    <!-- cabeçalho ate o botao -->
     <header class="_cabecalho">
-        <div class="logo__cabecalho" >
-            <img src="images/logo.svg" alt="Logo do site" >
+        <div class="logo__cabecalho">
+            <img src="images/logo.svg" alt="Logo do site">
         </div>
         <h1 class="titulo__destaque">A history of <br> everything you copy</h1>
         <p class="texto paragrafro__cabecalho">Clipboard allows you to track and organize everything you
             copy. Instantly access your clipboard on all your devices.</p>
-        
+
         <div class="botao">
             <a href="#" class="botao botao__download">Download for iOS</a>
             <a href="#" class="botao botao__download botao__download-alternativo">Download for Mac</a>
@@ -33,63 +35,104 @@
 
     <main class="_main">
         <section class="chamada">
+            <!--texto logo abaixo dos botoes-->
             <h2 class="titulo__destaque ">Keep track of your snippets</h2>
             <p class="paragrafo__chamada texto ">Clipboard instantly stores any item you copy in the cloud,
                 meaning you can access your snippets immediately on all your
-                devices. Our Mac and iOS apps will help you organize everything.</p>    
+                devices. Our Mac and iOS apps will help you organize everything.</p>
         </section>
         <section class="_central__imac-lista">
+            <!--tela do computador e lista -->
             <img src="images/image-computer.png" alt="Tela iMac" class="tela__imac">
             <ul class="lista__imac">
                 <li class="lista__imac-itens">
                     <h3 class="titulo__destaque">Quick Search</h3>
-                    <p class="texto paragrafo__lista-imac">Easily search your snippets by content, category, web address, application, and more.</p>
+                    <p class="texto paragrafo__lista-imac">Easily search your snippets by content, category, web
+                        address, application, and more.</p>
                 </li>
                 <li class="lista__imac-itens">
                     <h3 class="titulo__destaque">iCloud Sync</h3>
-                    <p class="texto paragrafo__lista-imac">Instantly saves and syncs snippets across all your devices.</p>
+                    <p class="texto paragrafo__lista-imac">Instantly saves and syncs snippets across all your devices.
+                    </p>
                 </li>
                 <li class="lista__imac-itens">
                     <h3 class="titulo__destaque">Complete History</h3>
-                    <p class="texto paragrafo__lista-imac">Retrieve any snippets from the first moment you started using the app.</p>
+                    <p class="texto paragrafo__lista-imac">Retrieve any snippets from the first moment you started using
+                        the app.</p>
                 </li>
             </ul>
         </section>
 
         <section class="_central__ipad">
+            <!-- texto e imagem do iphone e ipad-->
             <h3 class="titulo__destaque">Access Clipboard anywhere</h3>
-            <p class="texto paragrafo__ipad">Whether you’re on the go, or at your computer, you can access all your Clipboard
+            <p class="texto paragrafo__ipad">Whether you’re on the go, or at your computer, you can access all your
+                Clipboard
                 snippets in a few simple clicks.</p>
             <img src="images/image-devices.png" alt="ipad e iphone" class="ipad">
         </section>
 
         <setion class="_empresas">
+            <!--texto e lista de empresas-->
             <h3 class="titulo__destaque">Supercharge your workflow</h3>
-            <p class="texto">We’ve got the tools to boost your productivity.</p>
+            <p class="texto paragrafo__empresas">We’ve got the tools to boost your productivity.</p>
             <div class="chamada__empresas">
+                <!--lista das empresas-->
                 <ul class="empresas__lista">
                     <li class="empresas__itens">
-                        <span class="empresas__icone"></span>
+                        <span class="empresas__icone empresas__icone-blacklists"></span>
                         <h3 class="titulo__destaque">Create blacklists</h3>
-                        <p class="texto paragrafo__empresas">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+                        <p class="texto paragrafo__empresas">Ensure sensitive information never makes its way to your
+                            clipboard by excluding certain sources.</p>
                     </li>
-                    <li>
-                        <span></span>
+                    <li class="empresas__itens">
+                        <span class="empresas__icone empresas__icone-snippets"></span>
                         <h3 class="titulo__destaque">Plain text snippets</h3>
-                        <p class="texto paragrafo__empresas">Remove unwanted formatting from copied text for a consistent look.</p>
+                        <p class="texto paragrafo__empresas">Remove unwanted formatting from copied text for a
+                            consistent look.</p>
                     </li>
-                    <li>
-                        <span></span>
+                    <li class="empresas__itens">
+                        <span class="empresas__icone empresas__icone-olho"></span>
                         <h3 class="titulo__destaque">Sneak preview</h3>
-                        <p class="texto paragrafo__empresas">Quick preview of all snippets on your Clipboard for easy access.</p>
+                        <p class="texto paragrafo__empresas">Quick preview of all snippets on your Clipboard for easy
+                            access.</p>
                     </li>
                 </ul>
             </div>
+            <div class="logo__empresas">
+                <!--logo das empresas-->
+                <img src="images/logo-google.png" alt="logo-google" class="empresas__logo">
+                <img src="images/logo-ibm.png" alt="logo-ibm" class="empresas__logo">
+                <img src="images/logo-microsoft.png" alt="logo-microsoft" class="empresas__logo">
+                <img src="images/logo-hp.png" alt="logo-hp" class="empresas__logo">
+                <img src="images/logo-vector-graphics.png" alt="logo-vector" class="empresas__logo">
+            </div>
+            <div class="download__empresas">
+                <h3 class="titulo__destaque">Clipboard for iOS and Mac OS</h3>
+                <p class="texto paragrafo__download-empresas">Available for free on the App Store. Download for Mac or
+                    iOS, sync with iCloud
+                    and you’re ready to start adding to your clipboard.</p>
+                <div class="botao">
+                    <a href="#" class="botao botao__download">Download for iOS</a>
+                    <a href="#" class="botao botao__download botao__download-alternativo">Download for Mac</a>
+                </div>
+            </div>
         </setion>
     </main>
+
+    <footer class="_footer">
+        <img src="images/logo.svg" alt="" class="logo__footer itens__footer">
+        <a href="#" class="itens__footer texto__footer">FAQs</a>
+        <a href="#" class="itens__footer texto__footer">Contact Us</a>
+        <a href="#" class="itens__footer texto__footer"> Privacy Policy</a>
+        <a href="#" class="itens__footer texto__footer">Press Kit</a>
+        <a href="#" class="itens__footer texto__footer">Install Guide</a>
+        <div class="rede__social">
+            <span class="rede__social-icone rede__social-icone-facebook"></span>
+            <span class="rede__social-icone rede__social-icone-twitter"></span>
+            <span class="rede__social-icone rede__social-icone-instagram"></span>
+        </div>
+    </footer>
 </body>
 
 </html>
-
-
-

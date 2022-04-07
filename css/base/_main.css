@@ -46,9 +46,59 @@
 
 
 
+._empresas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
+.empresas__itens {
+    display: flex;
+    flex-direction: column;
+}
 
+.empresas__icone {
+    display: block;
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 3.25rem;
+    box-sizing: border-box;
+}
+
+.empresas__icone-blacklists {
+    content: url(../../images/icon-blacklist.svg)
+}
+
+.empresas__icone-snippets {
+    content: url(../../images/icon-text.svg);
+}
+
+.empresas__icone-olho {
+    content: url(../../images/icon-preview.svg);
+}
 
 .paragrafo__empresas {
     font-size: 1rem;
+    margin-bottom: 4.5rem;
+}
+
+
+.logo__empresas {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 9.625rem;
+}
+
+.paragrafo__download-empresas {
+    font-size: 1.02rem;
+    margin-bottom: 3.5rem;
+}
+
+.download__empresas {
+    margin-bottom: 9.25rem;
 }

@@ -1,0 +1,56 @@
+._footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: var(--bg-footer);
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    
+}
+
+.logo__footer {
+    width: 3.75rem;
+    height: 3.75rem;
+    
+}
+
+.itens__footer {
+    padding-bottom: 3rem;
+}
+
+.texto__footer {
+    color: var(--cinza-escuro);
+    font-weight: 600;
+    text-align: center;
+    line-height: 1rem;
+}
+
+.rede__social {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+
+.rede__social-icone {
+    width: 32px;
+    height: 32px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.rede__social-icone-facebook {
+    content: url(../../images/icon-facebook.svg);
+}
+
+.rede__social-icone-twitter {
+    content: url(../../images/icon-twitter.svg);
+}
+
+.rede__social-icone-instagram {
+    content: url(../../images/icon-instagram.svg);
+}
