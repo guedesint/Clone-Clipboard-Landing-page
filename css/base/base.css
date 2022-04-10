@@ -22,3 +22,14 @@ body {
     text-align: center;
     line-height: 25px;
 }
+
+.br{
+    display: block;
+}
+
+@media screen and (min-width:1440px) {
+    .titulo__destaque {
+        font-size: 3rem;
+    }
+
+}

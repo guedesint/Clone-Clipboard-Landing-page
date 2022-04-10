@@ -25,3 +25,12 @@
     border: 1px solid var(--lias);
 }
 
+
+@media screen and (min-width:1440px) {
+    .botao {
+        flex-direction: row;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-bottom: 5rem;
+    }
+}

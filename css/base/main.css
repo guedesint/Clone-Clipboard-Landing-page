@@ -1,4 +1,7 @@
+/* css mobile */
 ._main {
+    width: 100%;
+    box-sizing: border-box;
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -7,7 +10,6 @@
     font-size: 1rem;
     margin-bottom: 3.75rem;
 }
-
 
 
 ._central__imac-lista {
@@ -21,7 +23,7 @@
 }
 
 .lista__imac-itens {
-    margin-bottom: 3.25rem ;
+    margin-bottom: 3.25rem;
 }
 
 .paragrafo__lista-imac {
@@ -61,6 +63,7 @@
 .empresas__icone {
     display: block;
     align-self: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
     margin-bottom: 3.25rem;
@@ -99,6 +102,158 @@
     margin-bottom: 3.5rem;
 }
 
+
 .download__empresas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 9.25rem;
+}
+
+/* css desktop */
+@media screen and (min-width:1440px) {
+
+    /* css main - desktop*/
+    ._main {
+        width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .chamada {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+
+    .paragrafo__chamada {
+        font-size: 1.3rem;
+    }
+
+    /* css imac - desktop */
+
+    ._central__imac-lista {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .tela__imac {
+        width: 55%;
+        transform: translateX(-70px);
+    }
+
+    .lista__imac {
+        width: 28%;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+    }
+
+    .lista__imac-itens {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 2rem;
+    }
+
+    .titulo__destaque-imac {
+        font-size: 2rem;
+    }
+
+    .paragrafo__lista-imac {
+        font-size: inherit;
+        text-align: left;
+    }
+
+    /* css ipad - desktop */
+
+    ._central__ipad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .paragrafo__ipad {
+        margin-top: 1.1rem;
+        width: 75%;
+        font-size: 1.3rem;
+    }
+
+    /* css empresas */
+
+    .paragrafo__empresas {
+        font-size: 1.4rem;
+    }
+
+    .empresas__lista {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .empresas__itens {
+        width: 29%;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        word-wrap: break-word;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    .titulo__destaque-empresas {
+        font-size: 1.8rem;
+    }
+
+    .paragrafo__empresas {
+        width: 100%;
+        height: 50px;
+        flex-wrap: wrap;
+        font-size: 1.1rem;
+    }
+
+    /* css logo empresas */
+
+    .logo__empresas {
+        width: 90%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 6rem;
+        margin-top: 6rem;
+    }
+
+    .empresas__logo {
+        width: 13%;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    .download__empresas {
+        width: 60%;
+        margin-top:9.25rem;
+        margin-bottom: 0;
+    }
+
+    .paragrafo__download-empresas {
+        font-size: 1.3rem;
+        margin-top: 2rem;
+    }
+
+    /* css footer */
+
+    
+
 }

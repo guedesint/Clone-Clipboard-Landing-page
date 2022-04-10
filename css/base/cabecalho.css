@@ -10,6 +10,13 @@
     justify-content: center;
 }
 
+.container__cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .logo__cabecalho {
     display: flex;
     justify-content: center;
@@ -20,5 +27,24 @@
 .paragrafro__cabecalho {
     font-size: 1.01rem;
     padding-bottom: 5.312rem;
+    
 }
 
+
+@media screen and (min-width:1440px) {
+    ._cabecalho {
+        background-image: url(/images/bg-header-desktop.png);
+    }
+
+    .paragrafro__cabecalho {
+        font-size: 1.40rem;
+    }
+
+    .container__cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 60%;
+    }
+}
