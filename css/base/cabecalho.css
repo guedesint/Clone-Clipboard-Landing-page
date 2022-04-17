@@ -1,5 +1,5 @@
 ._cabecalho {    
-    background-image: url(/images/bg-header-mobile.png);
+    background-image: url(../../images/bg-header-mobile.png);
     background-repeat: no-repeat;
     background-size: 100%;
     padding-left: 2rem;
@@ -33,7 +33,7 @@
 
 @media screen and (min-width:1440px) {
     ._cabecalho {
-        background-image: url(/images/bg-header-desktop.png);
+        background-image: url(../../images/bg-header-desktop.png);
 
     }
 
